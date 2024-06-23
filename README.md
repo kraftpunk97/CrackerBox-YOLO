@@ -27,14 +27,13 @@ We use a Convolution Neural Network that I will not bother describing here, beca
 
 We train for 100 epochs, while using batch size of 8. We use half of our dataset for training and the other half for testing. 
 
-The training progress has been recorded below
+The training progress has been recorded below<br>
 ![](Images/train_loss.png)
 
-We then use the trained model on the test dataset. We see that we achieve an average precision of **0.47**.
+We then use the trained model on the test dataset. We see that we achieve an average precision of **0.47**.<br>
 ![](Images/test_ap.png)
 
-Here is how our model performs with images from the test dataset, for which we provide no bounding box information.
-
+Here is how our model performs with images from the test dataset, for which we provide no bounding box information.<br>
 ![](Images/result1.png)
 ![](Images/result2.png)
 
