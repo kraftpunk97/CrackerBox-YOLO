@@ -22,7 +22,7 @@ if __name__ == '__main__':
     learning_rate = 1e-4
     num_workers = 2
 
-    dataset_train = CrackerBox('train', 'data.zip')  
+    dataset_train = CrackerBox('train', '../data.zip')  
     train_loader = torch.utils.data.DataLoader(dataset_train, batch_size=batch_size, shuffle=True, num_workers=num_workers)
     epoch_size = len(train_loader)
 
