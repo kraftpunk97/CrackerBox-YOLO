@@ -38,6 +38,8 @@ Here is how our model performs with images from the test dataset, for which we p
 ![](Images/result1.png)
 ![](Images/result2.png)
 
+The trained model (weights) is available on [HuggingFace:hugs:](https://huggingface.co/kraftpunk97/CrackerBox-YOLO/tree/main).
+
 While the python files are present in the `yolo` directory, there is also a standalone Jupyter notebook `YOLO.ipynb` for your reading pleasure. 
 
-Thanks for your time :)
+Thanks for your time :smiley:
